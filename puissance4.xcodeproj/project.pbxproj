@@ -13,6 +13,7 @@
 		167D2BFD1E2FC42400245406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167D2BFB1E2FC42400245406 /* LaunchScreen.storyboard */; };
 		167D2C051E2FC51000245406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167D2C041E2FC51000245406 /* Main.storyboard */; };
 		167D2C071E2FC92800245406 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D2C061E2FC92800245406 /* Board.swift */; };
+		167D2C091E2FD2B700245406 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D2C081E2FD2B700245406 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		167D2BFE1E2FC42400245406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		167D2C041E2FC51000245406 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		167D2C061E2FC92800245406 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		167D2C081E2FD2B700245406 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				167D2BFB1E2FC42400245406 /* LaunchScreen.storyboard */,
 				167D2BFE1E2FC42400245406 /* Info.plist */,
 				167D2C061E2FC92800245406 /* Board.swift */,
+				167D2C081E2FD2B700245406 /* Player.swift */,
 			);
 			path = puissance4;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167D2C091E2FD2B700245406 /* Player.swift in Sources */,
 				167D2BF51E2FC42400245406 /* ViewController.swift in Sources */,
 				167D2BF31E2FC42400245406 /* AppDelegate.swift in Sources */,
 				167D2C071E2FC92800245406 /* Board.swift in Sources */,
