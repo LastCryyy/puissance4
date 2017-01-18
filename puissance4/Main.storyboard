@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9ES-46-xyU">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9ES-46-xyU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project34" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="puissance4" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -19,47 +22,55 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="YZS-VW-zfC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiI-ke-PW4">
+                                        <rect key="frame" x="0.0" y="0.0" width="52" height="603"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nfK-Vk-iLV"/>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q1z-zG-s2U"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwX-wR-dRT">
+                                        <rect key="frame" x="54" y="0.0" width="51.5" height="603"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="USB-qw-n4Y"/>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="km9-h6-8SK"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrQ-rg-f8E">
+                                        <rect key="frame" x="107.5" y="0.0" width="52" height="603"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R3c-nS-1nh"/>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eNm-yD-pqy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJd-YP-jEy">
+                                        <rect key="frame" x="161.5" y="0.0" width="52" height="603"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wvh-8U-uL8"/>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2SJ-8a-x2l"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VoU-dw-0zg">
+                                        <rect key="frame" x="215.5" y="0.0" width="52" height="603"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6qS-P5-KVR"/>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pnV-ap-kO3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkz-iL-eu8">
+                                        <rect key="frame" x="269.5" y="0.0" width="51.5" height="603"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pcb-gT-gxr"/>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AD6-s7-zZX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bE3-7v-M4h">
+                                        <rect key="frame" x="323" y="0.0" width="52" height="603"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tdg-bE-P6u"/>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fm2-YB-9ug"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -82,6 +93,14 @@
                         <outletCollection property="columnButtons" destination="VoU-dw-0zg" collectionClass="NSMutableArray" id="XSj-8u-D7x"/>
                         <outletCollection property="columnButtons" destination="wkz-iL-eu8" collectionClass="NSMutableArray" id="aMm-HG-sUR"/>
                         <outletCollection property="columnButtons" destination="bE3-7v-M4h" collectionClass="NSMutableArray" id="b4t-fy-GbK"/>
+                        <outletCollection property="columnButtons" destination="fiI-ke-PW4" collectionClass="NSMutableArray" id="KKZ-6k-LkF"/>
+                        <outletCollection property="columnButtons" destination="kwX-wR-dRT" collectionClass="NSMutableArray" id="mQP-ne-7DS"/>
+                        <outletCollection property="columnButtons" destination="XrQ-rg-f8E" collectionClass="NSMutableArray" id="rSu-SO-W6G"/>
+                        <outletCollection property="columnButtons" destination="TJd-YP-jEy" collectionClass="NSMutableArray" id="TTl-1q-Jsu"/>
+                        <outletCollection property="columnButtons" destination="VoU-dw-0zg" collectionClass="NSMutableArray" id="9zX-Sh-62K"/>
+                        <outletCollection property="columnButtons" destination="wkz-iL-eu8" collectionClass="NSMutableArray" id="Wxs-uS-gAv"/>
+                        <outletCollection property="columnButtons" destination="bE3-7v-M4h" collectionClass="NSMutableArray" id="9Vd-SL-Uvt"/>
+                        <outletCollection property="columnButtons" destination="TJd-YP-jEy" collectionClass="NSMutableArray" id="8FJ-yB-EXy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
